@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(24, 24, 24) ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 34);
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+}
+
+.loge{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    margin-left: -10px;
+}
+
+.menu{
+    margin-left: 950px;
+    border: 1px solid rgb(151, 151, 151);
+
+}
+
+
+.content1{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(151, 151, 151);
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    height: 500px;
+    margin: 150px;
+}
+
+.content1 h1{
+    font-size: xx-large;
+}
+
+.content1 p{
+    font-size: x-large;
+    width: 550px;
+    margin: 20px;
+    margin-left: 27%;
+    padding: 10px;
+    line-height: 35px;
+}
+
+.buttom1{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(52, 52, 241);
+    border-radius: 10px;
+    font-size: x-large;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.buttom2{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.boxes{
+    background-color: rgb(29, 29, 29);
+    margin-top: -300px;
+    color: rgb(151, 151, 151);
+    height: 1800px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: black;
+    width: 450px;
+    text-align: center;
+    height: 500px;
+    font-size: x-large;
+    margin-top: 60px;
+}
+
+.buttoms{
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.view{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    border: 1px solid rgb(151, 151, 151);
+    padding: 4px;
+}
+
+.edit{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    border: 1px solid rgb(151, 151, 151);
+    padding: 4px;
+}
+
+.mins{
+    text-align: end;
+    margin-top: -50px;
+    padding: 20px;
+}
+
+footer{
+    height: 100px;
+    color: white;
+    font-size: x-large;
+    padding: 50px;
+    display: flex;
+}
+
+footer a{
+    color: rgb(69, 69, 248);
+}
+
+footer p{
+    width: 800px;
+    margin: 180px;
+    margin-top: 10px;
+}
