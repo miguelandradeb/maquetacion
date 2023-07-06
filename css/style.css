@@ -39,13 +39,13 @@
 border-radius: 10px;
 }
 .buttom-one{
-  color: gray;
-  background-color: aliceblue;
+  color: black;
+  background-color: darkgray;
 }
 
 .buttom-second{
-  color: gray;
-  background-color: aliceblue;
+  color:black;
+  background-color:darkgray;
 }
 .boxes{
   justify-content: space-around;
